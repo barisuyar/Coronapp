@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CountryCaseView" customModule="CoronaUI" customModuleProvider="target">
+            <connections>
+                <outlet property="dotView" destination="DCA-2w-aPq" id="CS9-FV-0bb"/>
+                <outlet property="newCase" destination="hHg-t4-kIQ" id="ph0-hB-TF1"/>
+                <outlet property="placeholderView" destination="Pb9-HL-hxP" id="RkH-E4-EhY"/>
+                <outlet property="totalCase" destination="mge-Dx-xlC" id="vFT-EQ-fyu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="96" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pb9-HL-hxP">
+                    <rect key="frame" x="0.0" y="0.0" width="96" height="50"/>
+                    <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DCA-2w-aPq">
+                    <rect key="frame" x="4" y="19" width="12" height="12"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="12" id="FC6-cr-T6s"/>
+                        <constraint firstAttribute="height" constant="12" id="jaJ-z8-AJ8"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rKd-Wi-9IS">
+                    <rect key="frame" x="18" y="10.5" width="74" height="29"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mge-Dx-xlC">
+                            <rect key="frame" x="0.0" y="0.0" width="74" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHg-t4-kIQ">
+                            <rect key="frame" x="0.0" y="17" width="74" height="12"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="rKd-Wi-9IS" secondAttribute="trailing" constant="4" id="2JQ-6o-lB4"/>
+                <constraint firstItem="rKd-Wi-9IS" firstAttribute="leading" secondItem="DCA-2w-aPq" secondAttribute="trailing" constant="2" id="57x-Xh-e3o"/>
+                <constraint firstAttribute="bottom" secondItem="Pb9-HL-hxP" secondAttribute="bottom" id="8Wj-rw-CqD"/>
+                <constraint firstAttribute="trailing" secondItem="Pb9-HL-hxP" secondAttribute="trailing" id="K14-Zt-xd3"/>
+                <constraint firstItem="Pb9-HL-hxP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PRS-Hm-ohX"/>
+                <constraint firstItem="Pb9-HL-hxP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ebC-8r-OBq"/>
+                <constraint firstItem="DCA-2w-aPq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="jfJ-yG-Yfz"/>
+                <constraint firstItem="DCA-2w-aPq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="4" id="q3e-fp-1P2"/>
+                <constraint firstItem="rKd-Wi-9IS" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="xqS-Uf-8d8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-240.57971014492756" y="94.419642857142847"/>
+        </view>
+    </objects>
+</document>

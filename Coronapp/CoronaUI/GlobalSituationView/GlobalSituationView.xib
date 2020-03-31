@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GlobalSituationView" customModule="CoronaUI" customModuleProvider="target">
+            <connections>
+                <outlet property="casesView" destination="5pK-pq-HNe" id="Qe3-mi-uGZ"/>
+                <outlet property="confirmView" destination="WZL-ta-784" id="eHn-iD-hER"/>
+                <outlet property="deadView" destination="blY-Wy-fQb" id="Cs1-Cv-thu"/>
+                <outlet property="lastUpdateLabel" destination="KNJ-Q3-GKG" id="jQk-TE-wmC"/>
+                <outlet property="recoverView" destination="iCX-87-W8r" id="jL7-86-Uim"/>
+                <outlet property="titleLabel" destination="IZv-WA-NIa" id="E6k-Ha-LGz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="253"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZv-WA-NIa">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="38.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5pK-pq-HNe">
+                    <rect key="frame" x="0.0" y="40.5" width="414" height="212.5"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="j8a-rm-Eb1">
+                            <rect key="frame" x="16" y="16" width="382" height="172.5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" placeholderIntrinsicWidth="414" placeholderIntrinsicHeight="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="WZL-ta-784" customClass="GlobalSituationCaseView" customModule="CoronaUI" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="382" height="0.0"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <view contentMode="scaleToFill" placeholderIntrinsicWidth="414" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="iCX-87-W8r" customClass="GlobalSituationCaseView" customModule="CoronaUI" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="382" height="122.5"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="blY-Wy-fQb" customClass="GlobalSituationCaseView" customModule="CoronaUI" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="122.5" width="382" height="50"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last update" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KNJ-Q3-GKG">
+                            <rect key="frame" x="341" y="196.5" width="57" height="12"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="j8a-rm-Eb1" firstAttribute="leading" secondItem="5pK-pq-HNe" secondAttribute="leading" constant="16" id="2Vd-H2-adq"/>
+                        <constraint firstAttribute="trailing" secondItem="KNJ-Q3-GKG" secondAttribute="trailing" constant="16" id="GHs-eg-9zE"/>
+                        <constraint firstAttribute="trailing" secondItem="j8a-rm-Eb1" secondAttribute="trailing" constant="16" id="PkV-JS-iBl"/>
+                        <constraint firstAttribute="bottom" secondItem="KNJ-Q3-GKG" secondAttribute="bottom" constant="4" id="TCJ-fk-Jpm"/>
+                        <constraint firstItem="j8a-rm-Eb1" firstAttribute="top" secondItem="5pK-pq-HNe" secondAttribute="top" constant="16" id="Veu-1D-NC3"/>
+                        <constraint firstItem="KNJ-Q3-GKG" firstAttribute="top" secondItem="j8a-rm-Eb1" secondAttribute="bottom" constant="8" id="xNk-Jj-gC1"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="IZv-WA-NIa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2zz-mq-9fr"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="5pK-pq-HNe" secondAttribute="bottom" id="G1b-Ag-7DK"/>
+                <constraint firstItem="IZv-WA-NIa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GhC-NW-EgR"/>
+                <constraint firstItem="5pK-pq-HNe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Phu-KU-YsP"/>
+                <constraint firstAttribute="trailing" secondItem="IZv-WA-NIa" secondAttribute="trailing" id="UNY-k9-wOl"/>
+                <constraint firstItem="5pK-pq-HNe" firstAttribute="top" secondItem="IZv-WA-NIa" secondAttribute="bottom" constant="2" id="nFN-Jm-cZR"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5pK-pq-HNe" secondAttribute="trailing" id="uSk-JC-j69"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-136" y="41"/>
+        </view>
+    </objects>
+</document>

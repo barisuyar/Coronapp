@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchField" customModule="CoronaUI" customModuleProvider="target">
+            <connections>
+                <outlet property="searchTextField" destination="Z9W-Eh-QYH" id="UkO-Ls-khM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_icon" translatesAutoresizingMaskIntoConstraints="NO" id="T6U-2A-1In">
+                    <rect key="frame" x="377.5" y="16" width="20.5" height="17"/>
+                </imageView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z9W-Eh-QYH">
+                    <rect key="frame" x="16" y="16" width="345.5" height="17"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Z9W-Eh-QYH" secondAttribute="bottom" constant="16" id="2fW-Ji-8Ig"/>
+                <constraint firstItem="Z9W-Eh-QYH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="AF9-lq-8hs"/>
+                <constraint firstAttribute="trailing" secondItem="T6U-2A-1In" secondAttribute="trailing" constant="16" id="BV1-cw-G1f"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="T6U-2A-1In" secondAttribute="bottom" constant="16" id="FJK-vF-jnI"/>
+                <constraint firstItem="T6U-2A-1In" firstAttribute="leading" secondItem="Z9W-Eh-QYH" secondAttribute="trailing" constant="16" id="Jld-wt-lMp"/>
+                <constraint firstItem="Z9W-Eh-QYH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="OV7-Vy-wHN"/>
+                <constraint firstItem="T6U-2A-1In" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="SgJ-Se-ZNj"/>
+                <constraint firstItem="T6U-2A-1In" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="tNt-AI-vvM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-91" y="163"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="search_icon" width="20.5" height="21.5"/>
+    </resources>
+</document>
