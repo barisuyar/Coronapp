@@ -10,7 +10,7 @@ import Foundation
 import Common
 
 public protocol QuaResponse {
-    
+    func retrieve<T: Codable>(_ request: QuaRequest, completion: @escaping Handler<Result<T?, QuaError>>)
 }
 
 public extension QuaResponse {

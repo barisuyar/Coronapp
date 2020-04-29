@@ -23,7 +23,13 @@ public class SearchField: NibView {
                                                                        attributes: [NSAttributedString.Key.foregroundColor: UIColor.appLightTextColor])
             searchTextField.textColor = .textColor
             searchTextField.addTarget(self, action: #selector(textfieldEditingChanged), for: .editingChanged)
+            searchTextField.delegate = self
         }
+    }
+    
+    public override func awakeFromNib() {
+        super.awakeFromNib()
+        addToolbar()
     }
     
     public func set(textChangeHandler: Handler<String?>?) {
@@ -32,5 +38,34 @@ public class SearchField: NibView {
     
     @objc private func textfieldEditingChanged() {
         textChangeHandler?(searchTextField.text)
+    }
+    
+    func addToolbar() {
+        let toolbar: UIToolbar = UIToolbar()
+        toolbar.barStyle = .default
+        toolbar.translatesAutoresizingMaskIntoConstraints = false
+        let constraint = toolbar.heightAnchor.constraint(equalToConstant: 45)
+        constraint.isActive = true
+
+        let barButtonItem = UIBarButtonItem(title: "Kapat", style: .done, target: target, action: #selector(resign))
+        barButtonItem.tintColor = UIColor.textColor
+        
+        toolbar.items = [
+            UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil),
+            barButtonItem
+        ]
+        toolbar.sizeToFit()
+        searchTextField.inputAccessoryView = toolbar
+    }
+    
+    @objc func resign() {
+        searchTextField.resignFirstResponder()
+    }
+}
+
+extension SearchField: UITextFieldDelegate {
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        searchTextField.resignFirstResponder()
+        return true
     }
 }

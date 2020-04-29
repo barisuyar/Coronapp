@@ -68,8 +68,8 @@ public class GlobalSituationCaseView: NibView {
         caseNameLabel.text = model.caseName
         caseCountLabel.text = model.caseCount
         
-        if let caseFloat = (model.caseCount as NSString?)?.floatValue,
-            let totalFloat = (model.totalCaseCount as NSString?)?.floatValue {
+        if let caseFloat = (model.caseCount?.replacingOccurrences(of: ",", with: "") as NSString?)?.floatValue,
+            let totalFloat = (model.totalCaseCount?.replacingOccurrences(of: ",", with: "") as NSString?)?.floatValue {
             caseProgress.translatesAutoresizingMaskIntoConstraints = false
             let ratio = caseFloat / totalFloat
             caseProgress.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: CGFloat(ratio)).isActive = true
