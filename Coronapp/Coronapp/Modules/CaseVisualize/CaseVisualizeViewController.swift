@@ -20,7 +20,7 @@ protocol CaseVisualizeView: class {
 
 class CaseVisualizeViewController: UIViewController {
     
-    var presenter = CaseVisualizePresenter()
+    var presenter = CaseVisualizePresenter(resource: CoronaCasesResource())
     
     @IBOutlet private weak var globalSituationPlaceholder: UIView! {
         didSet {
@@ -92,7 +92,6 @@ class CaseVisualizeViewController: UIViewController {
         presenter.retrieveCountries { [weak self] (result) in
             guard let self = self else { return }
             self.dispatchGroup.leave()
-            self.presenter.screenState = .loaded
             self.searchField.isHidden = false
             self.countriesTableView.reloadData()
         }

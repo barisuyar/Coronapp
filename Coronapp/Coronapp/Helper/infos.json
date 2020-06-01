@@ -1,196 +1,196 @@
 {
     "knowledgeList":
-        [   {
-                "category": "virus_icon",
-                "infos": [
-                    {
-                        "description": "Coronavirüs’ler insanları ve çok çeşitli hayvan türlerini enfekte edebilen RNA virüsleridir. İnsanlarda soğuk algınlığından pnömoni (zatüre)’ye kadar değişen çok çeşitli solunum yolu enfeksiyonlarına neden olurlar. Her yıl sonbahar ve kış aylarında Coronavirüs’ler, -35 oranında boğaz ağrısı, kuru öksürük, burun akıntısı, halsizlik ve yorgunluk ile seyreden soğuk algınlığına yol açarlar. Enkübasyon süresi 3-5 gün olup, bu tür Coronovirüs enfeksiyonlarında hastalık 4-6 gün içerisinde kendi kendini sınırlar ve hastalar hızla iyileşirler. Olguların çok az bir kısmında ve özellikle risk grubunda ise pnömoni gelişebilir."
-                    },
-                    {
-                        "description": "2002 yılından itibaren görülmeye başlayan yeni Coronavirüs türleri ise soğuk algınlığından farklı, adeta grip benzeri daha ağır seyirli solunum     yolu enfeksiyonu ile kendini göstermeye başlamıştır. Bunlardan ilki SARS-CoV (Severe Acute Respiratory Syndrome Coronavirüs), (Ağır Akut Solunum Yetmezliği Sendromu) Coronavirüs enfeksiyonudur. Şubat 2003’de Çin’in Guangdong bölgesinde ilk önce yarasalardan palmiye misk kedisine ve buradan da insanlara bulaştığı düşünülen hastalık 8 ayda ve olguların çoğu Çin’den olmak üzere 5 kıtadan 33 ülkede 8000 kişiyi etkisi altına almış ve yaklaşık 800 kişi bu hastalıktan hayatını kaybetmiştir. 2004 yılından sonra da SARS’a bağlı yeni bir olgu bildirimi olmamıştır."
-                    },
-                    {
-                        "description": "Bir diğer yeni Coronavirüs enfeksiyonu da MERS-CoV (Middle East Respiratory Syndrome korona virus) enfeksiyonudur. İlk defa 2012 yılında Suudi Arabistan’dan başlamıştır. Deveden insana bulaştığı ve Haziran 2018’e kadar devam eden bu farklı MERS-CoV salgını da 5 kıtada ve 27 farklı ülkede 2229 olguda saptanmıştır. Olgulardan 791’i kaybedilmiştir. SARS-CoV’de mortalite oranı iken MERS-CoV’de oran %35’e ulaşmıştır. Gerek SARS-CoV, gerek se MERS-CoV enfeksiyonlarında enkübasyon süresi 3-5 gün kadar kısa olabildiği gibi bu süre 10-14 güne kadar da uzayabilmektedir. Bu durum hastalık belirtisi ortaya çıkmadan 10-14 güne kadar hastalığı başkalarına bulaştırabilme anlamını taşır. Enkübasyon döneminden sonra hastalık yüksek ateş, boğaz ağrısı, kuru öksürük, solunum yetmezliği, kas ve eklem ağrısı ve baş ağrısı yakınmaları ile seyreder. Hastalık daha çok alt solunum yollarında harabiyete neden olduğundan pnömoni daha sık görülür ve bu durum özellikle risk grubu olarak kabul edilen yaşlı hastalarda, ya da altta yatan kronik kalp, akciğer, böbrek hastalığı olanlarda hayatı tehdit edecek düzeye ulaşır. Hastalıktan iyileşenlerde iyileşme süreci 7-10 günü bulabilir."
-                    },
-                    {
-                        "description": "Soğuk algınlığı şeklinde seyreden Coronavirüs enfeksiyonlarında virüs nazofarinksteki silli epitel hücrelerini, aminopeptidaz N reseptör ya da sialik asit reseptörleri aracılığıyla enfekte eder. Virüs çoğaldıkça silli yassı epitel hücrelerinde harabiyet gelişir. Salgılanan kemokinler ve interlökinler lokal yakınmaların gelişmesine neden olur. SARS-CoV ve MERS-CoV ise solunum yolu hücrerlerine anjiotensin converting enzim 2 aracılığı ile bağlanırlar. Bu durum sistemik enfeksiyon hastalığına neden olur. Virüs pnömositlere, kana, idrara (2 aya kadar) ve dışkıya da geçebilir. Solunum yollarında virüs 2-3 hafta süreyle bulunabilir."
-                    },
-                    {
-                        "description": "31 Aralık 2019 tarihinde Çin’de Hubei eyaletine bağlı 11 milyon nüfuslu Wuhan şehrinden bildirilen olgunun da bugüne kadar hiç görülmemiş yeni bir Coronavirüs ile enfekte olduğu saptanmıştır. 2019-nCoV olarak adlandırılan bu virüsün de SARS-CoV ve MERS-CoV gibi bir zoonotik enfeksiyon yani hayvanlardan insanlara bulaştığı düşünülmektedir. Şimdilerde hızla hastalık insandan insana bulaşarak 30 Ocak 2020 tarihinde olguların çoğu Hubei eyaleti ve özellikle Wuhan’da olmak üzere ve Çin dışında 19 ülkede daha görülmek üzere olgu sayısı 8000’e ulaşılmış ve hepsi Çin’de olmak üzere 170 olgu hayatını kaybetmiştir. Hayatını kaybeden olgular irdelendiğinde bunların çoğunluğunun yaşlı hasta ya da kronik kalp, akciğer ve böbrek hastası, Parkinson ve Diyabet tanısı almış olgular olduğu saptanmıştır."
-                    }
-                ]
+    [   {
+        "category": "virus_icon",
+        "infos": [
+            {
+                "description": "Coronavirüs’ler insanları ve çok çeşitli hayvan türlerini enfekte edebilen RNA virüsleridir. İnsanlarda soğuk algınlığından pnömoni (zatüre)’ye kadar değişen çok çeşitli solunum yolu enfeksiyonlarına neden olurlar. Her yıl sonbahar ve kış aylarında Coronavirüs’ler, -35 oranında boğaz ağrısı, kuru öksürük, burun akıntısı, halsizlik ve yorgunluk ile seyreden soğuk algınlığına yol açarlar. Enkübasyon süresi 3-5 gün olup, bu tür Coronovirüs enfeksiyonlarında hastalık 4-6 gün içerisinde kendi kendini sınırlar ve hastalar hızla iyileşirler. Olguların çok az bir kısmında ve özellikle risk grubunda ise pnömoni gelişebilir."
             },
-        {
-            "category": "symptom_icon_daily",
-            "infos": [
-                {
-                    "title": "1-3. gün corona belirtileri",
-                    "description": "Soğuk algınlığı ve gribe benzeyen belirtiler ortaya çıkar. Hafif ateş ve boğaz ağrısı görülebilir. Bağışıklık zayıfsa mide bulantısı ve ishal görülebilir."
-                },
-                {
-                    "title": "4. gün corona belirtileri",
-                    "description": "Boğaz ağrısı şiddetlenir. Ses boğuklaşır. Yeme ve içmede zorluk yaşanabilir. Hafif baş ağrısı ile birlikte ishal başlar."
-                },
-                {
-                    "title": "5. gün corona belirtileri",
-                    "description": "Boğaz ağrısı şiddetlenir. Yeme ve içme oldukça ağrılı bir hale gelir. Vücudu ve uzuvları hareket ettirmek sancılı olur. Eklem ağrıları görülür."
-                },
-                {
-                    "title": "6. gün corona belirtileri",
-                    "description": "Kuru öksürük başlar. Konuşurken yutkunurken boğaz ağrısı şiddetlenir. Şiddetli bitkinlik başlar. Mide bulantısı artar. Zaman zaman nefes almada zorluk yaşanır. İshal ve kusma şiddetlenir."
-                },
-                {
-                    "title": "7. gün corona belirtileri",
-                    "description": "Ateş 38 dereceye yükselir. Öksürük ve balgam çok şiddetlenir. Vücut ve baş ağrılarıyla birlikte kusma çok şiddetli bir hale gelir."
-                },
-                {
-                    "title": "8. gün corona belirtileri",
-                    "description": "Soluk alıp vermek çok güç bir hale gelir. Göğüs bölgesi çok ağır olarak hissedilir. Öksürükle birlikte baş ve eklem ağrıları son derece artar. Vücut sıcaklığı 38 derecenin üzerine çıkar."
-                },
-                {
-                    "title": "9. gün corona belirtileri",
-                    "description": "Tüm belirtiler şiddetle artar. Yüz veya dudaklarda mavileşme görülür. Öksürük ve balgam çok şiddetlenir. Vücut ve baş ağrılarıyla birlikte kusma çok şiddetli bir hale gelir."
-                },
-                {
-                    "title": "7. gün corona belirtileri",
-                    "description": "Ateş 38 dereceye yükselir. Öksürük ve balgam çok şiddetlenir. Vücut ve baş ağrılarıyla birlikte kusma çok şiddetli bir hale gelir."
-                },
-                {
-                    "title": "7. gün corona belirtileri",
-                    "description": "Ateş 38 dereceye yükselir. Öksürük ve balgam çok şiddetlenir. Vücut ve baş ağrılarıyla birlikte kusma çok şiddetli bir hale gelir."
-                }
-            ]
-        },
-        {
-            "category": "symptom_icon_general",
-            "infos": [
-                {
-                    "title": "Kuru öksürük",
-                    "description": "Virüs alt ve üst solunum yollarını etkilediği için en sık görülen belirti."
-                },
-                {
-                    "title": "Yüksek ateş",
-                    "description": "Virüsün yol açtığı tahribatlar ve vücuda verdiği zarar nedeniyle aynı şekilde kuru öksürük gibi en sık görülen bir diğer belirti yüksek ateş."
-                },
-                {
-                    "title": "Boğaz ağrısı",
-                    "description": "Yüksek ateş ve kuru öksürüğe oranla daha az görülse de solunum yollarına bulaşan virüsler bulaştığı bölgede ağrıya neden oluyor. Boğaz ağrısı da bu hastalığın belirtileri arasında gösterilebilir."
-                },
-                {
-                    "title": "Nefes darlığı",
-                    "description": "Hastalığın ölümcül sonuçlar doğurmasındaki en büyük etkenlerden biri de oluşturduğu nefes darlığı. Özellikle solunum problemi olan hastalar, virüs nedeniyle artan nefes darlığına bağlı olarak yaşamlarını yitirebiliyor."
-                },
-                {
-                    "title": "Yorgunluk",
-                    "description": "Virüsün vücutta oluşturduğu genel tablo nedeniyle hasta kendisini yorgun hissedebilir, kas ve eklem ağrıları yaşayabilir."
-                },
-                {
-                    "title": "Baş ağrısı",
-                    "description": "Üst solunum yollarına etki eden virüsün nefes darlığı, boğaz ağrısı ve diğer belirtiler nedeniyle oluşturduğu etki dönem dönem baş ağrısıyla da baş gösterebiliyor."
-                },
-                {
-                    "title": "Nezle ve ishal",
-                    "description": "Virüsün en az görülen belirtileri ise nezle ve ishal. Bu belirtiler çok az sayıda hastada ortaya çıkıyor."
-                }
-            ]
-        },
-        {
-            "category": "mask_icon",
-            "infos": [
-                {
-                    "description": "Sağlıklı biriyseniz, 2019-nCoV şüphesi olan biriyle beraberken maske takabilirsiniz."
-                },
-                {
-                    "description": "Hapşırık veya öksürük durumundaysanız maske takmalısınız."
-                },
-                {
-                    "description": "Maskenin etkili kullanımı için dış ortama dokunan bölgelerin temizliği de önem taşır. Bu bölgelerin (el, ayak vb.) alkol bazlı temizleyici veya sabun ile beraber bol su ile yıkanması gerekmektedir."
-                },
-                {
-                    "description": "Maskeyi kullanırken ağzınızı ve burnunuzu hiç boşluk kalmayacak şekilde kapatmalısınız. Maskeyi taktığınız süre boyunca dokunmamaya özen gösterin."
-                },
-                {
-                    "description": "Maske nemlendikten sonra mutlaka yenisiyle değiştirin. Asla kullanılmış bir maskeyi kullanmayın."
-                },
-                {
-                    "description": "Maskeyi arka tarafından çıkarınız. Maskeyi çıkardıktan sonra mutlaka bol su ve sabun ile beraber el, ağız-burun çevresi temizliği yapınız."
-                },
-                {
-                    "description": "Virüsün en az görülen belirtileri ise nezle ve ishal. Bu belirtiler çok az sayıda hastada ortaya çıkıyor."
-                }
-            ]
-        },
-        {
-            "category": "myth_icon",
-            "infos": [
-                {
-                    "title": "COVID-19 virüsü sadece sıcak ortamda yayılmaz",
-                    "description": "Şimdiye kadar elde edilen kanıtlardan, COVID-19 virüsü, sıcak ve nemli havaya sahip alanlar da dahil olmak üzere TÜM ALANLARDA bulaşabilir. İklim ne olursa olsun, COVID-19'u bildiren bir bölgede yaşıyorsanız veya seyahat ediyorsanız koruyucu önlemler alın. Kendinizi COVID-19'a karşı korumanın en iyi yolu sık sık ellerinizi temizlemektir. Bunu yaparak ellerinizde olabilecek virüsleri ortadan kaldırır ve gözlerinize, ağzınıza ve burnunuza dokunarak oluşabilecek enfeksiyonlardan kaçınırsınız."
-                },
-                {
-                    "title": "Soğuk hava ve kar yeni koronavirüsü öldüremez",
-                    "description": "Soğuk havanın yeni koronavirüsü veya diğer hastalıkları öldürebileceğine inanmak için hiçbir neden yoktur. Normal insan vücudu sıcaklığı, dış sıcaklığa veya hava durumuna bakılmaksızın 36.5 ° C ila 37 ° C arasında kalır. Kendinizi yeni koronavirüse karşı korumanın en etkili yolu, ellerinizi sıklıkla alkol bazlı el ovma ile temizlemek veya sabun ve su ile yıkamaktır."
-                },
-                {
-                    "title": "Sıcak banyo yapmak yeni koronavirüs hastalığını önlemez",
-                    "description": "Sıcak banyo yapmak COVID-19'u yakalamanızı engellemez. Banyo veya duşunuzun sıcaklığından bağımsız olarak normal vücut sıcaklığınız 36.5°C ila 37°C arasında kalır. Aslında, aşırı sıcak su ile sıcak bir banyo yapmak, sizi yakabileceği için zararlı olabilir."
-                },
-                {
-                    "title": "Yeni koronavirüs sivrisinek ısırıkları yoluyla bulaşamaz",
-                    "description": "Bugüne kadar, yeni koronavirüsün sivrisinekler tarafından bulaşabileceğini gösteren hiçbir bilgi veya kanıt bulunmamaktadır. Yeni koronavirüs, öncelikle enfekte bir kişi öksürdüğü veya hapşırdığı zaman üretilen damlacıklar veya burundan tükürük veya akıntı damlacıkları yoluyla yayılan bir solunum virüsüdür."
-                },
-                {
-                    "description": "El kurutma makineleri yeni koronavirüsü öldürmede etkili değildir."
-                },
-                {
-                    "description": "UV radyasyonu cilt tahrişine neden olabileceğinden, UV lambaları elleri veya cildin diğer bölgelerini sterilize etmek için kullanılmamalıdır."
-                },
-                {
-                    "description": "Termal tarayıcılar, yeni koronavirüs enfeksiyonu nedeniyle ateşlenen kişilerin tespit edilmesinde etkilidir. Ancak enfeksiyon sahibi kişide ateş görünmesi 2-10 gün arasında değiştiği için etkili bir yöntem değildir."
-                },
-                {
-                    "description": "Vücudunuzun her yerine alkol veya klor püskürtmek, vücudunuza girmiş olan virüsleri öldürmez. Bu tür maddelerin püskürtülmesi kıyafetlere veya mukoza zarlarına (yani gözler, ağız) zararlı olabilir."
-                },
-                {
-                    "description": "Sarımsak, bazı antimikrobiyal özelliklere sahip olabilen sağlıklı bir besindir. Bununla birlikte, mevcut salgından sarımsak yemenin insanları yeni koronavirüsten koruduğuna dair bir kanıt yoktur."
-                },
-                {
-                    "title": "Koronavirüs yalnızca yaşlıları tehlikeye atmaz",
-                    "description": "Her yaştan insana yeni koronavirüs bulaşabilir. Yaşlı insanlar ve önceden mevcut tıbbi durumları (astım, diyabet, kalp hastalığı gibi) olan kişiler virüsle ciddi şekilde hastalanmaya karşı daha savunmasız görünüyor."
-                },
-                {
-                    "description": "Antibiyotikler virüslere karşı değil, sadece bakterilere karşı çalışır. Yeni koronavirüs bir virüstür ve bu nedenle antibiyotikler bir önleme veya tedavi aracı olarak kullanılmamalıdır. Bununla birlikte, 2019-nCoV için hastaneye yatırılırsanız, antibiyotik alabilirsiniz, çünkü bakteriyel koenfeksiyon mümkün olabilir."
-                },
-                {
-                    "description": "Vücudunuzun her yerine alkol veya klor püskürtmek, vücudunuza girmiş olan virüsleri öldürmez. Bu tür maddelerin püskürtülmesi kıyafetlere veya mukoza zarlarına (yani gözler, ağız) zararlı olabilir."
-                },
-                {
-                    "description": "Vücudunuzun her yerine alkol veya klor püskürtmek, vücudunuza girmiş olan virüsleri öldürmez. Bu tür maddelerin püskürtülmesi kıyafetlere veya mukoza zarlarına (yani gözler, ağız) zararlı olabilir."
-                }
-            ]
-        },
-        {
-            "category": "advice_icon",
-            "infos": [
-                {
-                    "description": "Ellerinizi düzenli olarak ve alkol bazlı temizleyici veya sabun ve bol su ile yıkayın."
-                },
-                {
-                    "description": "Kendinizle özellikle öksüren veya hapşıran kişiler olmak üzere diğer insanlar arasında en az 1 metre mesafe bırakın."
-                },
-                {
-                    "description": "Ellerimiz bir çok yüzeye temas ettiği için yüzümüze dokunmadan önce mutlaka iyice yıkamalısınız."
-                },
-                {
-                    "description": "Kendinizi iyi hissetmiyorsanız evde kalın. Ateş, öksürük ve nefes almada zorluk çekiyorsanız, tıbbi yardım alın. Yerel sağlık kurumunuzun talimatlarını izleyin."
-                },
-                {
-                    "description": "COVID-19 hakkındaki son gelişmelerden haberdar olun. Kendinizi ve başkalarını COVID-19'dan nasıl koruyacağınız konusunda sağlık uzmanlarının tavsiyelerine kulak verin."
-                },
-                {
-                    "description": "Maske kullanımına özen gösterin."
-                }
-            ]
-        }
+            {
+                "description": "2002 yılından itibaren görülmeye başlayan yeni Coronavirüs türleri ise soğuk algınlığından farklı, adeta grip benzeri daha ağır seyirli solunum     yolu enfeksiyonu ile kendini göstermeye başlamıştır. Bunlardan ilki SARS-CoV (Severe Acute Respiratory Syndrome Coronavirüs), (Ağır Akut Solunum Yetmezliği Sendromu) Coronavirüs enfeksiyonudur. Şubat 2003’de Çin’in Guangdong bölgesinde ilk önce yarasalardan palmiye misk kedisine ve buradan da insanlara bulaştığı düşünülen hastalık 8 ayda ve olguların çoğu Çin’den olmak üzere 5 kıtadan 33 ülkede 8000 kişiyi etkisi altına almış ve yaklaşık 800 kişi bu hastalıktan hayatını kaybetmiştir. 2004 yılından sonra da SARS’a bağlı yeni bir olgu bildirimi olmamıştır."
+            },
+            {
+                "description": "Bir diğer yeni Coronavirüs enfeksiyonu da MERS-CoV (Middle East Respiratory Syndrome korona virus) enfeksiyonudur. İlk defa 2012 yılında Suudi Arabistan’dan başlamıştır. Deveden insana bulaştığı ve Haziran 2018’e kadar devam eden bu farklı MERS-CoV salgını da 5 kıtada ve 27 farklı ülkede 2229 olguda saptanmıştır. Olgulardan 791’i kaybedilmiştir. SARS-CoV’de mortalite oranı iken MERS-CoV’de oran %35’e ulaşmıştır. Gerek SARS-CoV, gerek se MERS-CoV enfeksiyonlarında enkübasyon süresi 3-5 gün kadar kısa olabildiği gibi bu süre 10-14 güne kadar da uzayabilmektedir. Bu durum hastalık belirtisi ortaya çıkmadan 10-14 güne kadar hastalığı başkalarına bulaştırabilme anlamını taşır. Enkübasyon döneminden sonra hastalık yüksek ateş, boğaz ağrısı, kuru öksürük, solunum yetmezliği, kas ve eklem ağrısı ve baş ağrısı yakınmaları ile seyreder. Hastalık daha çok alt solunum yollarında harabiyete neden olduğundan pnömoni daha sık görülür ve bu durum özellikle risk grubu olarak kabul edilen yaşlı hastalarda, ya da altta yatan kronik kalp, akciğer, böbrek hastalığı olanlarda hayatı tehdit edecek düzeye ulaşır. Hastalıktan iyileşenlerde iyileşme süreci 7-10 günü bulabilir."
+            },
+            {
+                "description": "Soğuk algınlığı şeklinde seyreden Coronavirüs enfeksiyonlarında virüs nazofarinksteki silli epitel hücrelerini, aminopeptidaz N reseptör ya da sialik asit reseptörleri aracılığıyla enfekte eder. Virüs çoğaldıkça silli yassı epitel hücrelerinde harabiyet gelişir. Salgılanan kemokinler ve interlökinler lokal yakınmaların gelişmesine neden olur. SARS-CoV ve MERS-CoV ise solunum yolu hücrerlerine anjiotensin converting enzim 2 aracılığı ile bağlanırlar. Bu durum sistemik enfeksiyon hastalığına neden olur. Virüs pnömositlere, kana, idrara (2 aya kadar) ve dışkıya da geçebilir. Solunum yollarında virüs 2-3 hafta süreyle bulunabilir."
+            },
+            {
+                "description": "31 Aralık 2019 tarihinde Çin’de Hubei eyaletine bağlı 11 milyon nüfuslu Wuhan şehrinden bildirilen olgunun da bugüne kadar hiç görülmemiş yeni bir Coronavirüs ile enfekte olduğu saptanmıştır. 2019-nCoV olarak adlandırılan bu virüsün de SARS-CoV ve MERS-CoV gibi bir zoonotik enfeksiyon yani hayvanlardan insanlara bulaştığı düşünülmektedir. Şimdilerde hızla hastalık insandan insana bulaşarak 30 Ocak 2020 tarihinde olguların çoğu Hubei eyaleti ve özellikle Wuhan’da olmak üzere ve Çin dışında 19 ülkede daha görülmek üzere olgu sayısı 8000’e ulaşılmış ve hepsi Çin’de olmak üzere 170 olgu hayatını kaybetmiştir. Hayatını kaybeden olgular irdelendiğinde bunların çoğunluğunun yaşlı hasta ya da kronik kalp, akciğer ve böbrek hastası, Parkinson ve Diyabet tanısı almış olgular olduğu saptanmıştır."
+            }
         ]
+    },
+    {
+        "category": "symptom_icon_daily",
+        "infos": [
+            {
+                "title": "1-3. gün corona belirtileri",
+                "description": "Soğuk algınlığı ve gribe benzeyen belirtiler ortaya çıkar. Hafif ateş ve boğaz ağrısı görülebilir. Bağışıklık zayıfsa mide bulantısı ve ishal görülebilir."
+            },
+            {
+                "title": "4. gün corona belirtileri",
+                "description": "Boğaz ağrısı şiddetlenir. Ses boğuklaşır. Yeme ve içmede zorluk yaşanabilir. Hafif baş ağrısı ile birlikte ishal başlar."
+            },
+            {
+                "title": "5. gün corona belirtileri",
+                "description": "Boğaz ağrısı şiddetlenir. Yeme ve içme oldukça ağrılı bir hale gelir. Vücudu ve uzuvları hareket ettirmek sancılı olur. Eklem ağrıları görülür."
+            },
+            {
+                "title": "6. gün corona belirtileri",
+                "description": "Kuru öksürük başlar. Konuşurken yutkunurken boğaz ağrısı şiddetlenir. Şiddetli bitkinlik başlar. Mide bulantısı artar. Zaman zaman nefes almada zorluk yaşanır. İshal ve kusma şiddetlenir."
+            },
+            {
+                "title": "7. gün corona belirtileri",
+                "description": "Ateş 38 dereceye yükselir. Öksürük ve balgam çok şiddetlenir. Vücut ve baş ağrılarıyla birlikte kusma çok şiddetli bir hale gelir."
+            },
+            {
+                "title": "8. gün corona belirtileri",
+                "description": "Soluk alıp vermek çok güç bir hale gelir. Göğüs bölgesi çok ağır olarak hissedilir. Öksürükle birlikte baş ve eklem ağrıları son derece artar. Vücut sıcaklığı 38 derecenin üzerine çıkar."
+            },
+            {
+                "title": "9. gün corona belirtileri",
+                "description": "Tüm belirtiler şiddetle artar. Yüz veya dudaklarda mavileşme görülür. Öksürük ve balgam çok şiddetlenir. Vücut ve baş ağrılarıyla birlikte kusma çok şiddetli bir hale gelir."
+            },
+            {
+                "title": "7. gün corona belirtileri",
+                "description": "Ateş 38 dereceye yükselir. Öksürük ve balgam çok şiddetlenir. Vücut ve baş ağrılarıyla birlikte kusma çok şiddetli bir hale gelir."
+            },
+            {
+                "title": "7. gün corona belirtileri",
+                "description": "Ateş 38 dereceye yükselir. Öksürük ve balgam çok şiddetlenir. Vücut ve baş ağrılarıyla birlikte kusma çok şiddetli bir hale gelir."
+            }
+        ]
+    },
+    {
+        "category": "symptom_icon_general",
+        "infos": [
+            {
+                "title": "Kuru öksürük",
+                "description": "Virüs alt ve üst solunum yollarını etkilediği için en sık görülen belirti."
+            },
+            {
+                "title": "Yüksek ateş",
+                "description": "Virüsün yol açtığı tahribatlar ve vücuda verdiği zarar nedeniyle aynı şekilde kuru öksürük gibi en sık görülen bir diğer belirti yüksek ateş."
+            },
+            {
+                "title": "Boğaz ağrısı",
+                "description": "Yüksek ateş ve kuru öksürüğe oranla daha az görülse de solunum yollarına bulaşan virüsler bulaştığı bölgede ağrıya neden oluyor. Boğaz ağrısı da bu hastalığın belirtileri arasında gösterilebilir."
+            },
+            {
+                "title": "Nefes darlığı",
+                "description": "Hastalığın ölümcül sonuçlar doğurmasındaki en büyük etkenlerden biri de oluşturduğu nefes darlığı. Özellikle solunum problemi olan hastalar, virüs nedeniyle artan nefes darlığına bağlı olarak yaşamlarını yitirebiliyor."
+            },
+            {
+                "title": "Yorgunluk",
+                "description": "Virüsün vücutta oluşturduğu genel tablo nedeniyle hasta kendisini yorgun hissedebilir, kas ve eklem ağrıları yaşayabilir."
+            },
+            {
+                "title": "Baş ağrısı",
+                "description": "Üst solunum yollarına etki eden virüsün nefes darlığı, boğaz ağrısı ve diğer belirtiler nedeniyle oluşturduğu etki dönem dönem baş ağrısıyla da baş gösterebiliyor."
+            },
+            {
+                "title": "Nezle ve ishal",
+                "description": "Virüsün en az görülen belirtileri ise nezle ve ishal. Bu belirtiler çok az sayıda hastada ortaya çıkıyor."
+            }
+        ]
+    },
+    {
+        "category": "mask_icon",
+        "infos": [
+            {
+                "description": "Sağlıklı biriyseniz, 2019-nCoV şüphesi olan biriyle beraberken maske takabilirsiniz."
+            },
+            {
+                "description": "Hapşırık veya öksürük durumundaysanız maske takmalısınız."
+            },
+            {
+                "description": "Maskenin etkili kullanımı için dış ortama dokunan bölgelerin temizliği de önem taşır. Bu bölgelerin (el, ayak vb.) alkol bazlı temizleyici veya sabun ile beraber bol su ile yıkanması gerekmektedir."
+            },
+            {
+                "description": "Maskeyi kullanırken ağzınızı ve burnunuzu hiç boşluk kalmayacak şekilde kapatmalısınız. Maskeyi taktığınız süre boyunca dokunmamaya özen gösterin."
+            },
+            {
+                "description": "Maske nemlendikten sonra mutlaka yenisiyle değiştirin. Asla kullanılmış bir maskeyi kullanmayın."
+            },
+            {
+                "description": "Maskeyi arka tarafından çıkarınız. Maskeyi çıkardıktan sonra mutlaka bol su ve sabun ile beraber el, ağız-burun çevresi temizliği yapınız."
+            },
+            {
+                "description": "Virüsün en az görülen belirtileri ise nezle ve ishal. Bu belirtiler çok az sayıda hastada ortaya çıkıyor."
+            }
+        ]
+    },
+    {
+        "category": "myth_icon",
+        "infos": [
+            {
+                "title": "COVID-19 virüsü sadece sıcak ortamda yayılmaz",
+                "description": "Şimdiye kadar elde edilen kanıtlardan, COVID-19 virüsü, sıcak ve nemli havaya sahip alanlar da dahil olmak üzere TÜM ALANLARDA bulaşabilir. İklim ne olursa olsun, COVID-19'u bildiren bir bölgede yaşıyorsanız veya seyahat ediyorsanız koruyucu önlemler alın. Kendinizi COVID-19'a karşı korumanın en iyi yolu sık sık ellerinizi temizlemektir. Bunu yaparak ellerinizde olabilecek virüsleri ortadan kaldırır ve gözlerinize, ağzınıza ve burnunuza dokunarak oluşabilecek enfeksiyonlardan kaçınırsınız."
+            },
+            {
+                "title": "Soğuk hava ve kar yeni koronavirüsü öldüremez",
+                "description": "Soğuk havanın yeni koronavirüsü veya diğer hastalıkları öldürebileceğine inanmak için hiçbir neden yoktur. Normal insan vücudu sıcaklığı, dış sıcaklığa veya hava durumuna bakılmaksızın 36.5 ° C ila 37 ° C arasında kalır. Kendinizi yeni koronavirüse karşı korumanın en etkili yolu, ellerinizi sıklıkla alkol bazlı el ovma ile temizlemek veya sabun ve su ile yıkamaktır."
+            },
+            {
+                "title": "Sıcak banyo yapmak yeni koronavirüs hastalığını önlemez",
+                "description": "Sıcak banyo yapmak COVID-19'u yakalamanızı engellemez. Banyo veya duşunuzun sıcaklığından bağımsız olarak normal vücut sıcaklığınız 36.5°C ila 37°C arasında kalır. Aslında, aşırı sıcak su ile sıcak bir banyo yapmak, sizi yakabileceği için zararlı olabilir."
+            },
+            {
+                "title": "Yeni koronavirüs sivrisinek ısırıkları yoluyla bulaşamaz",
+                "description": "Bugüne kadar, yeni koronavirüsün sivrisinekler tarafından bulaşabileceğini gösteren hiçbir bilgi veya kanıt bulunmamaktadır. Yeni koronavirüs, öncelikle enfekte bir kişi öksürdüğü veya hapşırdığı zaman üretilen damlacıklar veya burundan tükürük veya akıntı damlacıkları yoluyla yayılan bir solunum virüsüdür."
+            },
+            {
+                "description": "El kurutma makineleri yeni koronavirüsü öldürmede etkili değildir."
+            },
+            {
+                "description": "UV radyasyonu cilt tahrişine neden olabileceğinden, UV lambaları elleri veya cildin diğer bölgelerini sterilize etmek için kullanılmamalıdır."
+            },
+            {
+                "description": "Termal tarayıcılar, yeni koronavirüs enfeksiyonu nedeniyle ateşlenen kişilerin tespit edilmesinde etkilidir. Ancak enfeksiyon sahibi kişide ateş görünmesi 2-10 gün arasında değiştiği için etkili bir yöntem değildir."
+            },
+            {
+                "description": "Vücudunuzun her yerine alkol veya klor püskürtmek, vücudunuza girmiş olan virüsleri öldürmez. Bu tür maddelerin püskürtülmesi kıyafetlere veya mukoza zarlarına (yani gözler, ağız) zararlı olabilir."
+            },
+            {
+                "description": "Sarımsak, bazı antimikrobiyal özelliklere sahip olabilen sağlıklı bir besindir. Bununla birlikte, mevcut salgından sarımsak yemenin insanları yeni koronavirüsten koruduğuna dair bir kanıt yoktur."
+            },
+            {
+                "title": "Koronavirüs yalnızca yaşlıları tehlikeye atmaz",
+                "description": "Her yaştan insana yeni koronavirüs bulaşabilir. Yaşlı insanlar ve önceden mevcut tıbbi durumları (astım, diyabet, kalp hastalığı gibi) olan kişiler virüsle ciddi şekilde hastalanmaya karşı daha savunmasız görünüyor."
+            },
+            {
+                "description": "Antibiyotikler virüslere karşı değil, sadece bakterilere karşı çalışır. Yeni koronavirüs bir virüstür ve bu nedenle antibiyotikler bir önleme veya tedavi aracı olarak kullanılmamalıdır. Bununla birlikte, 2019-nCoV için hastaneye yatırılırsanız, antibiyotik alabilirsiniz, çünkü bakteriyel koenfeksiyon mümkün olabilir."
+            },
+            {
+                "description": "Vücudunuzun her yerine alkol veya klor püskürtmek, vücudunuza girmiş olan virüsleri öldürmez. Bu tür maddelerin püskürtülmesi kıyafetlere veya mukoza zarlarına (yani gözler, ağız) zararlı olabilir."
+            },
+            {
+                "description": "Vücudunuzun her yerine alkol veya klor püskürtmek, vücudunuza girmiş olan virüsleri öldürmez. Bu tür maddelerin püskürtülmesi kıyafetlere veya mukoza zarlarına (yani gözler, ağız) zararlı olabilir."
+            }
+        ]
+    },
+    {
+        "category": "advice_icon",
+        "infos": [
+            {
+                "description": "Ellerinizi düzenli olarak ve alkol bazlı temizleyici veya sabun ve bol su ile yıkayın."
+            },
+            {
+                "description": "Kendinizle özellikle öksüren veya hapşıran kişiler olmak üzere diğer insanlar arasında en az 1 metre mesafe bırakın."
+            },
+            {
+                "description": "Ellerimiz bir çok yüzeye temas ettiği için yüzümüze dokunmadan önce mutlaka iyice yıkamalısınız."
+            },
+            {
+                "description": "Kendinizi iyi hissetmiyorsanız evde kalın. Ateş, öksürük ve nefes almada zorluk çekiyorsanız, tıbbi yardım alın. Yerel sağlık kurumunuzun talimatlarını izleyin."
+            },
+            {
+                "description": "COVID-19 hakkındaki son gelişmelerden haberdar olun. Kendinizi ve başkalarını COVID-19'dan nasıl koruyacağınız konusunda sağlık uzmanlarının tavsiyelerine kulak verin."
+            },
+            {
+                "description": "Maske kullanımına özen gösterin."
+            }
+        ]
+    }
+    ]
 }

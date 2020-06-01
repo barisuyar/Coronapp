@@ -21,7 +21,7 @@ class CaseVisualizePresenter {
         case loaded
     }
     
-    private let resource: CoronaCasesResourceProtocol = CoronaCasesResource()
+    private var resource: CoronaCasesResourceProtocol!
     @Filtered(filterString: "") private var countryArray: [Country]
     private var countryResponse: CountryResponse?
     private var filteredCountryResponse: CountryResponse?
@@ -29,6 +29,10 @@ class CaseVisualizePresenter {
     
     var countryCount: Int {
         screenState == .loading ? 5 : _countryArray.filtered.count
+    }
+    
+    init(resource: CoronaCasesResourceProtocol) {
+        self.resource = resource
     }
     
     func country(for row: Int) -> CountryProtocol? {
@@ -43,7 +47,9 @@ class CaseVisualizePresenter {
     }
     
     func retrieveCountries(completion: @escaping Handler<QuaError?>) {
-        resource.retrieveCountries { (result) in
+        resource.retrieveCountries { [weak self] (result) in
+            guard let self = self else { return }
+            self.screenState = .loaded
             switch result {
             case .success(let response):
                 if let countries = response?.result {

@@ -1,0 +1,23 @@
+{
+    "success": true,
+    "result": [
+        {
+            "country": "Italy",
+            "totalCases": "27,980",
+            "newCases": "",
+            "totalDeaths": "2,158",
+            "newDeaths": "",
+            "totalRecovered": "2,749",
+            "activeCases": "23,073"
+        },
+        {
+            "country": "China",
+            "totalCases": "80,881",
+            "newCases": "+21",
+            "totalDeaths": "3,226",
+            "newDeaths": "+13",
+            "totalRecovered": "68,709",
+            "activeCases": "8,946"
+        }
+    ]
+}
